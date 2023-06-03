@@ -12,12 +12,16 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-color: rgb(21, 196, 36);
+    background-color: #1f2937;
+    color: white;
 }
 
 .links a{
     margin-left: 20px;
+    color: white;
+    text-decoration: none;
 }
+
 
 .footer {
     display: flex;
@@ -36,9 +40,47 @@ body {
     border: 3px solid black;
 }
 
+.one {
+    background-color: #1f2937;
+    color: white;
+}
+.one button{
+    color: white;
+    background-color: #3b82f6;
+    border-radius: 12px;
+}
+.rightone {
+    border: 5px solid red;
+    width: 600px;
+}
+/* Section two*/
+
 .two {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+}
+.image-row {
+    display: flex;
+}
+.image-container {
+    text-align: center;
+}
+.image-container img {
+    width: 100%;
+}
+
+
+.three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid orange;
+}
+.quoteblock {
+    border: 8px solid red;
+}
+.author {
+
 }
