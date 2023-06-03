@@ -1,44 +1,9 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  header nav a {
-    margin-left: 20px;
-  }
-  
-  .section1 {
-    display: flex;
-  }
-  
-  .section2 .images {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .section2 .image {
-    width: calc(25% - 20px);
-    margin: 10px;
-  }
-  
-  .section3 {
-    text-align: center;
-  }
-  
-  .section4 .blue-box {
-    background-color: blue;
-    color: white;
-    padding: 20px;
-  }
-  
-  footer {
-    text-align: center;
-  }
-  
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  margin-right: 20px;
+}
